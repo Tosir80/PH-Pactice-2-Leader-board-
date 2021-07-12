@@ -13,6 +13,7 @@ body{
     font-family: 'Poppins',
     sans-serif;
       background: #F3F1FF;
+
    
 }
 
@@ -30,7 +31,8 @@ body{
     
  }
  .containerr{
-     width: 870px;
+    width: 870px;
+     margin:0 auto;
  }
 .navbar{
     display: flex;
@@ -215,7 +217,7 @@ color:#AEAEAE;
           
           grid-template-columns:repeat(1, 1fr);
       }
-      .player , .blog  {
+      .player , .blog  ,.navbar{
           flex-direction: column;
           align-items: center
       }
